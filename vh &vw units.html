@@ -10,6 +10,42 @@
         margin: 0;
         padding: 0;
       }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      header {
+        background: #333 url("./img/i'm\ okay.jpg") no-repeat center
+          center/cover;
+        color: #fff;
+        height: 100vh;
+        text-align: center;
+        padding: 2rem;
+        padding-top: 15rem;
+      }
+      header h1 {
+        font-size: 3rem;
+      }
+      header p {
+        margin: 1rem 0;
+      }
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #f4f4f4;
+        color: #333;
+        padding: 0.75rem 2rem;
+      }
+
+      section {
+        padding: 2rem;
+      }
+      /* media query */
+      @media (max-height: 450px) {
+        header {
+          padding-top: 5px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -23,5 +59,17 @@
       </p>
       <a href="#" class="btn">Find out More</a>
     </header>
+    <!-- section -->
+    <section>
+      <h3>About Our Company</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non commodi at
+        dignissimos sapiente molestiae voluptates voluptatum, molestias nobis
+        quae sed ad nesciunt doloribus? Molestiae esse inventore voluptas
+        corporis tempore saepe ut magnam nobis qui, iste totam, quasi aut
+        consequuntur modi recusandae repellat veniam ducimus quos sapiente
+        molestias reprehenderit deserunt? Aperiam.
+      </p>
+    </section>
   </body>
 </html>
